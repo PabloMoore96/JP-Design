@@ -275,11 +275,10 @@ body .mainAbout .secMainAbout {
   min-height: calc(100vh - 106px - 62px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 }
 body .mainAbout .secMainAbout p {
-  margin: 20px;
-  margin-bottom: 80px;
+  margin: 40px;
   color: black;
   font-weight: 500;
 }
