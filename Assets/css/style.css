@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 4rem;
+}
+body .nav {
+  display: flex;
+  background-color: #0009AD;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 0 45px;
+  align-items: center;
+}
+body .nav .lista ul {
+  display: flex;
+}
+body .nav .lista ul li {
+  margin: 20px;
+  list-style: none;
+  padding: 5px;
+}
+body .nav .lista ul li a {
+  color: white;
+  text-decoration: none;
+}
+body .nav .lista ul .active {
+  border: 2px;
+  border-style: outset;
+}
+body .nav .logo img {
+  width: 100px;
+}
+body .main {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 106px - 62px);
+}
+body .main .secMain {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1366px) {
+  body .main .secMain {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main .secMain .img-izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  body .main .secMain .img-izquierda .img1 {
+    width: 420px;
+    margin: 3px;
+  }
+  body .main .secMain .img-izquierda .img1:hover {
+    margin: 0;
+    width: 430px;
+  }
+  body .main .secMain .img-izquierda .img2 {
+    width: 330px;
+    margin: 4px;
+    bottom: 0;
+  }
+  body .main .secMain .img-izquierda .img2:hover {
+    width: 340px;
+    margin: 0;
+  }
+  body .main .secMain .img-centro {
+    display: flex;
+  }
+  body .main .secMain .img-centro .img3 {
+    width: 320px;
+    margin: 5px;
+  }
+  body .main .secMain .img-centro .img3:hover {
+    width: 330px;
+    margin: 0;
+  }
+  body .main .secMain .img-derecha {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+  }
+  body .main .secMain .img-derecha .img4 {
+    width: 310px;
+    margin: 5px;
+  }
+  body .main .secMain .img-derecha .img4:hover {
+    width: 320px;
+    margin: 0;
+  }
+  body .main .secMain .img-derecha .img5 {
+    justify-self: flex-end;
+    width: 420px;
+    bottom: 0;
+    margin: 2.5px;
+  }
+  body .main .secMain .img-derecha .img5:hover {
+    margin: 0;
+    width: 430px;
+  }
+}
+@media (min-width: 1366px) {
+  body .main .secMain {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .main .secMain .img-izquierda {
+    margin-right: 20px;
+    width: 440px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  body .main .secMain .img-izquierda .img1 {
+    width: 420px;
+  }
+  body .main .secMain .img-izquierda .img1:hover {
+    width: 430px;
+  }
+  body .main .secMain .img-izquierda .img2 {
+    margin: 20px 0 10px 50px;
+    width: 330px;
+    position: absolute;
+    bottom: 0;
+  }
+  body .main .secMain .img-izquierda .img2:hover {
+    width: 340px;
+  }
+  body .main .secMain .img-centro {
+    display: flex;
+    position: relative;
+    width: 350px;
+  }
+  body .main .secMain .img-centro .img3 {
+    position: absolute;
+    bottom: 90px;
+    width: 320px;
+  }
+  body .main .secMain .img-centro .img3:hover {
+    width: 330px;
+  }
+  body .main .secMain .img-derecha {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+  }
+  body .main .secMain .img-derecha .img4 {
+    width: 310px;
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
+  body .main .secMain .img-derecha .img4:hover {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+  body .main .secMain .img-derecha .img5 {
+    justify-self: flex-end;
+    width: 420px;
+    margin-bottom: 5px;
+    bottom: 0;
+  }
+  body .main .secMain .img-derecha .img5:hover {
+    margin: 0;
+    width: 430px;
+  }
+}
+@media (min-width: 1920px) {
+  body .main .secMain {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .main .secMain .img-izquierda {
+    margin-right: 20px;
+    width: 680px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  body .main .secMain .img-izquierda .img1 {
+    width: 640px;
+  }
+  body .main .secMain .img-izquierda .img1:hover {
+    width: 650px;
+  }
+  body .main .secMain .img-izquierda .img2 {
+    margin: 50px 0 10px 180px;
+    width: 440px;
+    position: absolute;
+    bottom: 0;
+  }
+  body .main .secMain .img-izquierda .img2:hover {
+    width: 450px;
+  }
+  body .main .secMain .img-centro {
+    display: flex;
+    position: relative;
+    width: 500px;
+  }
+  body .main .secMain .img-centro .img3 {
+    position: absolute;
+    bottom: 90px;
+    width: 440px;
+  }
+  body .main .secMain .img-centro .img3:hover {
+    width: 450px;
+  }
+  body .main .secMain .img-derecha {
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+  body .main .secMain .img-derecha .img4 {
+    width: 370px;
+    margin-top: 72px;
+    margin-bottom: 30px;
+  }
+  body .main .secMain .img-derecha .img4:hover {
+    width: 380px;
+    margin-bottom: 20px;
+  }
+  body .main .secMain .img-derecha .img5 {
+    justify-self: flex-end;
+    width: 580px;
+    margin-bottom: 5px;
+    bottom: 0;
+  }
+  body .main .secMain .img-derecha .img5:hover {
+    margin: 0;
+    width: 590px;
+  }
+}
+body .mainContact {
+  display: flex;
+  align-content: center;
+  padding-left: 100px;
+}
+body .mainContact .secMainContact {
+  min-height: calc(100vh - 106px - 62px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 40px;
+}
+body .mainContact .secMainContact a {
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+body .mainContact .secMainContact a:hover {
+  text-decoration: underline;
+}
+body .mainAbout {
+  display: flex;
+  align-content: center;
+  padding-left: 100px;
+}
+body .mainAbout .secMainAbout {
+  min-height: calc(100vh - 106px - 62px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .mainAbout .secMainAbout p {
+  margin: 20px;
+  margin-bottom: 80px;
+  color: black;
+  font-weight: 500;
+}
+body footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0009AD;
+  color: white;
+  padding: 22px;
+}/*# sourceMappingURL=style.css.map */
