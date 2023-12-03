@@ -365,6 +365,42 @@ body .mainGal2 .sec2 .article2Sec2 {
 body .mainGal2 .sec2 .article2Sec2 img {
   width: 300px;
 }
+body .mainGal3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 64px);
+}
+body .mainGal3 .mainGal3Sec1 {
+  display: flex;
+  padding: 50px;
+}
+body .mainGal3 .mainGal3Sec1 img {
+  width: 350px;
+  margin-right: 150px;
+}
+body .mainGal3 .mainGal3Sec2 {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+body .mainGal3 .mainGal3Sec2 .return {
+  width: 900px;
+}
+body .mainGal3 .mainGal3Sec2 .return img {
+  position: absolute;
+  left: 430px;
+  bottom: 85px;
+  width: 125px;
+}
+body .mainGal3 .mainGal3Sec2 .img-abajo {
+  display: flex;
+}
+body .mainGal3 .mainGal3Sec2 .img-abajo img {
+  width: 350px;
+  margin-right: 150px;
+}
 body footer {
   position: absolute;
   bottom: 0;
