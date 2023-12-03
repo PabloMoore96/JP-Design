@@ -455,6 +455,57 @@ body{
         }
     }
 
+    .mainGal5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 64px);
+
+        .mainGal5Sec1{
+            display: flex;
+            width: 1900px;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            img{
+                width: 300px;
+            }
+            .imgAncha{
+                width: 590px;
+            }
+        }
+        .mainGal5Sec2{
+            width: 1900px;
+            display: flex;
+            position: relative;
+            justify-content: space-evenly;
+
+            .return{
+                width: 400px;
+                img{
+                    position: absolute;
+                    left: 430px;
+                    bottom: 85px;
+                    width: 125px;
+                }
+            }
+
+            .img-abajoo{
+                width: 1200px;
+                display: flex;
+                .imgLarga{
+                    margin: 0 50px;
+                    width: 250px;
+                }
+                .banner{
+                    margin: 0 50px;
+                    width: 355.5px;
+                }
+            }
+
+        }
+    }
+
     footer{
         position: absolute;
         bottom: 0;
