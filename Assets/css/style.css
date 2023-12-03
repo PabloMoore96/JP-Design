@@ -282,6 +282,89 @@ body .mainAbout .secMainAbout p {
   color: black;
   font-weight: 500;
 }
+body .mainGal1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: calc(100vh - 64px);
+}
+body .mainGal1 .img {
+  display: flex;
+}
+body .mainGal1 .img img {
+  width: 350px;
+  margin-bottom: 60px;
+}
+body .mainGal1 .volverVideo {
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  justify-content: space-evenly;
+  position: relative;
+}
+body .mainGal1 .volverVideo img {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  left: 190px;
+  bottom: 60px;
+}
+body .mainGal1 .volverVideo .video {
+  width: 600px;
+  height: 400px;
+}
+body .mainGal2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 64px);
+}
+body .mainGal2 .sec1 {
+  display: flex;
+}
+body .mainGal2 .sec1 article {
+  display: flex;
+}
+body .mainGal2 .sec1 article img {
+  width: 350px;
+}
+body .mainGal2 .sec2 {
+  display: flex;
+}
+body .mainGal2 .sec2 .article1Sec2 {
+  display: flex;
+  flex-direction: column;
+}
+body .mainGal2 .sec2 .article1Sec2 .aside1Sec2 {
+  display: flex;
+  width: 1050px;
+  justify-content: center;
+}
+body .mainGal2 .sec2 .article1Sec2 .aside1Sec2 img {
+  width: 300px;
+}
+body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #img7 img {
+  width: 125px;
+}
+body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #nintendo1 img {
+  width: 350px;
+}
+body .mainGal2 .sec2 .article2Sec2 {
+  display: flex;
+  width: 350px;
+  align-items: end;
+  justify-content: end;
+}
+body .mainGal2 .sec2 .article2Sec2 img {
+  width: 300px;
+}
 body footer {
   position: absolute;
   bottom: 0;
