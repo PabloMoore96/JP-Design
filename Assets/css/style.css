@@ -300,7 +300,7 @@ body .mainGal1 .volverVideo {
   display: flex;
   align-items: center;
   width: 1400px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
 }
 body .mainGal1 .volverVideo img {
@@ -311,7 +311,7 @@ body .mainGal1 .volverVideo img {
   bottom: 60px;
 }
 body .mainGal1 .volverVideo .video {
-  width: 600px;
+  width: 710px;
   height: 400px;
 }
 body .mainGal2 {

@@ -336,7 +336,7 @@ body{
             display: flex;
             align-items: center;
             width: 1400px;
-            justify-content: space-evenly;
+            justify-content: space-around;
             position: relative;
             img{
                 width: 125px;
@@ -347,7 +347,7 @@ body{
 
             }
             .video{
-                width: 600px;
+                width: 710px;
                 height: 400px;
             }
         }
