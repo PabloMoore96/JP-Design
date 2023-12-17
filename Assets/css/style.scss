@@ -55,6 +55,7 @@ body{
     .main{
         
         padding: 15px;
+        padding-bottom: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -139,27 +140,28 @@ body{
             @media (min-width:1366px) {
                 flex-direction: row;
                 justify-content: space-between;
+                padding: 0;
                 .img-izquierda{
                     margin-right: 20px;
-                    width: 440px;
+                    width: 420px;
                     display: flex;
                     position: relative;
                     flex-direction: column;
                     .img1{
-                        width: 420px;
+                        width: 400px;
                         // margin-bottom: 100px;
                         &:hover{
-                            width: 430px;
+                            width: 410px;
                         }
                     }
                     .img2{
                         margin: 20px 0 10px 50px;
-                        width: 330px;
+                        width: 300px;
                         position: absolute;
                         bottom: 0;
     
                         &:hover{
-                            width: 340px;
+                            width: 310px;
                         }
         
                     }
@@ -171,9 +173,9 @@ body{
                     .img3{
                         position: absolute;
                         bottom: 90px;
-                        width: 320px;
+                        width: 300px;
                         &:hover{
-                            width: 330px;
+                            width: 310px;
                         }
                     }
                 }
@@ -184,22 +186,22 @@ body{
                     flex-direction: column;
                     width:430px;
                     .img4{
-                        width: 310px;
+                        width: 280px;
                         margin-top: 72px;
                         margin-bottom: 30px;
                         &:hover{
-                            width: 320px;
+                            width: 290px;
                             margin-bottom: 20px;
                         }
                     } 
                     .img5{
                         justify-self: flex-end;
-                        width: 420px;
+                        width: 400px;
                         margin-bottom: 5px;
                         bottom: 0;
                         &:hover{
                             margin: 0;
-                            width: 430px;
+                            width: 410px;
                         }
                     }
                 }
@@ -211,25 +213,25 @@ body{
                 justify-content: space-between;
                 .img-izquierda{
                     margin-right: 20px;
-                    width: 680px;
+                    width: 690px;
                     display: flex;
                     position: relative;
                     flex-direction: column;
                     .img1{
-                        width: 640px;
+                        width: 650px;
                         // margin-bottom: 100px;
                         &:hover{
-                            width: 650px;
+                            width: 640px;
                         }
                     }
                     .img2{
-                        margin: 50px 0 10px 180px;
-                        width: 440px;
+                        margin: 50px 0 0px 180px;
+                        width: 450px;
                         position: absolute;
                         bottom: 0;
     
                         &:hover{
-                            width: 450px;
+                            width: 440px;
                         }
         
                     }
@@ -237,13 +239,13 @@ body{
                 .img-centro{
                     display: flex;
                     position: relative;
-                    width:500px;
+                    width:550px;
                     .img3{
                         position: absolute;
                         bottom: 90px;
-                        width: 440px;
+                        width: 450px;
                         &:hover{
-                            width: 450px;
+                            width: 440px;
                         }
                     }
                 }
@@ -252,24 +254,24 @@ body{
                     position: relative;
                     display: flex;
                     flex-direction: column;
-                    width:600px;
+                    width:590px;
                     .img4{
-                        width: 370px;
+                        width: 380px;
                         margin-top: 72px;
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                         &:hover{
-                            width: 380px;
-                            margin-bottom: 20px;
+                            width: 370px;
+                            margin-bottom: 30px;
                         }
                     } 
                     .img5{
                         justify-self: flex-end;
-                        width: 580px;
-                        margin-bottom: 5px;
+                        width: 590px;
+                        margin-bottom: 0px;
                         bottom: 0;
                         &:hover{
-                            margin: 0;
-                            width: 590px;
+                            margin-bottom: 4.5px;
+                            width: 580px;
                         }
                     }
                 }
@@ -741,10 +743,11 @@ body{
     
             .mainGal3Sec1{
                 display: flex;
-                padding: 50px;
+                padding: 5px;
+                padding-bottom: 20px ;
                 img{
-                    width: 350px;
-                    margin-right: 150px;
+                    width: 400px;
+                    margin-right: 100px;
                 }
             }
     
@@ -764,8 +767,8 @@ body{
                 .img-abajo{
                     display: flex;
                     img{
-                        width: 350px;
-                        margin-right: 150px;
+                        width: 400px;
+                        margin-right: 100px;
                     }
                 }
             }
@@ -1032,6 +1035,6 @@ body{
         align-items: center;
         background-color: #0009AD;
         color: white;
-        padding: 22px;
+        padding: 17px;
     }
 }

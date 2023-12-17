@@ -45,6 +45,7 @@ body .nav .logo img {
 }
 body .main {
   padding: 15px;
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,28 +123,29 @@ body .main .secMain {
   body .main .secMain {
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
   }
   body .main .secMain .img-izquierda {
     margin-right: 20px;
-    width: 440px;
+    width: 420px;
     display: flex;
     position: relative;
     flex-direction: column;
   }
   body .main .secMain .img-izquierda .img1 {
-    width: 420px;
+    width: 400px;
   }
   body .main .secMain .img-izquierda .img1:hover {
-    width: 430px;
+    width: 410px;
   }
   body .main .secMain .img-izquierda .img2 {
     margin: 20px 0 10px 50px;
-    width: 330px;
+    width: 300px;
     position: absolute;
     bottom: 0;
   }
   body .main .secMain .img-izquierda .img2:hover {
-    width: 340px;
+    width: 310px;
   }
   body .main .secMain .img-centro {
     display: flex;
@@ -153,10 +155,10 @@ body .main .secMain {
   body .main .secMain .img-centro .img3 {
     position: absolute;
     bottom: 90px;
-    width: 320px;
+    width: 300px;
   }
   body .main .secMain .img-centro .img3:hover {
-    width: 330px;
+    width: 310px;
   }
   body .main .secMain .img-derecha {
     margin-left: 20px;
@@ -166,23 +168,23 @@ body .main .secMain {
     width: 430px;
   }
   body .main .secMain .img-derecha .img4 {
-    width: 310px;
+    width: 280px;
     margin-top: 72px;
     margin-bottom: 30px;
   }
   body .main .secMain .img-derecha .img4:hover {
-    width: 320px;
+    width: 290px;
     margin-bottom: 20px;
   }
   body .main .secMain .img-derecha .img5 {
     justify-self: flex-end;
-    width: 420px;
+    width: 400px;
     margin-bottom: 5px;
     bottom: 0;
   }
   body .main .secMain .img-derecha .img5:hover {
     margin: 0;
-    width: 430px;
+    width: 410px;
   }
 }
 @media (min-width: 1920px) {
@@ -192,64 +194,64 @@ body .main .secMain {
   }
   body .main .secMain .img-izquierda {
     margin-right: 20px;
-    width: 680px;
+    width: 690px;
     display: flex;
     position: relative;
     flex-direction: column;
   }
   body .main .secMain .img-izquierda .img1 {
-    width: 640px;
-  }
-  body .main .secMain .img-izquierda .img1:hover {
     width: 650px;
   }
+  body .main .secMain .img-izquierda .img1:hover {
+    width: 640px;
+  }
   body .main .secMain .img-izquierda .img2 {
-    margin: 50px 0 10px 180px;
-    width: 440px;
+    margin: 50px 0 0px 180px;
+    width: 450px;
     position: absolute;
     bottom: 0;
   }
   body .main .secMain .img-izquierda .img2:hover {
-    width: 450px;
+    width: 440px;
   }
   body .main .secMain .img-centro {
     display: flex;
     position: relative;
-    width: 500px;
+    width: 550px;
   }
   body .main .secMain .img-centro .img3 {
     position: absolute;
     bottom: 90px;
-    width: 440px;
+    width: 450px;
   }
   body .main .secMain .img-centro .img3:hover {
-    width: 450px;
+    width: 440px;
   }
   body .main .secMain .img-derecha {
     margin-left: 20px;
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 590px;
   }
   body .main .secMain .img-derecha .img4 {
-    width: 370px;
+    width: 380px;
     margin-top: 72px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   body .main .secMain .img-derecha .img4:hover {
-    width: 380px;
-    margin-bottom: 20px;
+    width: 370px;
+    margin-bottom: 30px;
   }
   body .main .secMain .img-derecha .img5 {
     justify-self: flex-end;
-    width: 580px;
-    margin-bottom: 5px;
+    width: 590px;
+    margin-bottom: 0px;
     bottom: 0;
   }
   body .main .secMain .img-derecha .img5:hover {
-    margin: 0;
-    width: 590px;
+    margin-bottom: 4.5px;
+    width: 580px;
   }
 }
 @media (max-width: 600px) {
@@ -669,11 +671,12 @@ body .mainAbout .secMainAbout p {
   }
   body .mainGal3 .mainGal3Sec1 {
     display: flex;
-    padding: 50px;
+    padding: 5px;
+    padding-bottom: 20px;
   }
   body .mainGal3 .mainGal3Sec1 img {
-    width: 350px;
-    margin-right: 150px;
+    width: 400px;
+    margin-right: 100px;
   }
   body .mainGal3 .mainGal3Sec2 {
     display: flex;
@@ -693,8 +696,8 @@ body .mainAbout .secMainAbout p {
     display: flex;
   }
   body .mainGal3 .mainGal3Sec2 .img-abajo img {
-    width: 350px;
-    margin-right: 150px;
+    width: 400px;
+    margin-right: 100px;
   }
 }
 @media (max-width: 1650px) {
@@ -936,5 +939,5 @@ body footer {
   align-items: center;
   background-color: #0009AD;
   color: white;
-  padding: 22px;
+  padding: 17px;
 }/*# sourceMappingURL=style.css.map */
