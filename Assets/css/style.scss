@@ -782,8 +782,11 @@ body{
                 display: flex;
                 padding: 5px;
                 padding-bottom: 20px ;
+                margin-top: 25px;
+                margin-bottom: 10px;
                 img{
-                    width: 400px;
+
+                    width: 370px;
                     margin-right: 100px;
                 }
             }
@@ -804,7 +807,7 @@ body{
                 .img-abajo{
                     display: flex;
                     img{
-                        width: 400px;
+                        width: 370px;
                         margin-right: 100px;
                     }
                 }
@@ -963,9 +966,10 @@ body{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                margin-bottom: 50px;
+                margin-top: 22px;
+                margin-bottom: 37px;
                 img{
-                    width: 300px;
+                    width: 250px;
                     margin: 10px;
                 }
                 .imgAncha{

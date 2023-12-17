@@ -707,9 +707,11 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
     padding: 5px;
     padding-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
   body .mainGal3 .mainGal3Sec1 img {
-    width: 400px;
+    width: 370px;
     margin-right: 100px;
   }
   body .mainGal3 .mainGal3Sec2 {
@@ -730,7 +732,7 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
   }
   body .mainGal3 .mainGal3Sec2 .img-abajo img {
-    width: 400px;
+    width: 370px;
     margin-right: 100px;
   }
 }
@@ -876,10 +878,11 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-top: 22px;
+    margin-bottom: 37px;
   }
   body .mainGal5 .mainGal5Sec1 img {
-    width: 300px;
+    width: 250px;
     margin: 10px;
   }
   body .mainGal5 .mainGal5Sec1 .imgAncha {
