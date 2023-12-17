@@ -5,6 +5,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    font-size: 11pt;
+}
+main{
+    position: relative;
+}
+#z_index_grid{
+    img{
+        position: absolute;
+        width: 1870px;
+        top: 25px;
+        left: 25px;
+        z-index: 0;
+    }
+    
+}
+#z_gallery_grid{
+    img{
+        position: absolute;
+        width: 1870px;
+        top: 125px;
+        left: 25px;
+        z-index: 0;
+    }
+    
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -54,12 +81,15 @@ body{
     }
     .main{
         
+        position: relative;
         padding: 15px;
         padding-bottom: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: calc(100vh - 106px - 62px);
+
+        
 
         .secMain{
             
