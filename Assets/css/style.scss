@@ -25,7 +25,7 @@ main{
     img{
         position: absolute;
         width: 1870px;
-        top: 125px;
+        top: 80px;
         left: 25px;
         z-index: 0;
     }
@@ -394,6 +394,8 @@ body{
             justify-content: end;
             padding: 40px;
             a{
+                margin-left: 70px;
+                z-index: 1;
                 text-decoration: none;
                 margin-bottom: 40px;
                 &:hover{
@@ -407,16 +409,16 @@ body{
         align-content: center;
         padding-left: 100px;
         .secMainAbout{
-            min-height: calc(100vh - 106px - 62px);
+            min-height: calc(100vh - 106px - 77px);
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            margin-top: 15px;
             
-            p{
-                margin: 40px;
+            h1{
+                margin-left: 110px;
+                z-index: 1;
                 
-                color: black;
-                font-weight: 500;
                 
             }
         }
@@ -434,7 +436,7 @@ body{
                 display: flex;
     
                 img{
-                    width: 350px;
+                    width: 500px;
                     margin-bottom: 60px;
                 }
             }
@@ -453,8 +455,8 @@ body{
     
                 }
                 .video{
-                    width: 710px;
-                    height: 400px;
+                    width: 820px;
+                    height: 500px;
                 }
             }
         }
@@ -473,7 +475,7 @@ body{
     
                 img{
                     width: 350px;
-                    margin-bottom: 60px;
+                    margin-bottom: 50px;
                 }
             }
             .volverVideo{
@@ -482,13 +484,13 @@ body{
                 justify-content: space-around;
                 position: relative;
                 img{
-                    margin: 50px;
+                    margin: 40px;
                     width: 125px;
                     height: 125px;
                 }
                 .video{
-                    width: 540px;
-                    height: 305px;
+                    width: 720px;
+                    height: 405px;
                 }
             }
         }
@@ -611,6 +613,7 @@ body{
                         justify-content: space-evenly;
     
                         #img7{
+                            z-index: 1;
                             img{
                                 width: 125px;
                             }
@@ -649,6 +652,7 @@ body{
                     display: flex;
                     img{
                         width: 350px;
+                        margin-top: 90px;
                     }
                 }
             }
@@ -739,6 +743,9 @@ body{
                         justify-content: space-evenly;
     
                         #img7{
+                            a{
+                                z-index: 1;
+                            }
                             img{
                                 width: 80px;
                             }
