@@ -451,8 +451,7 @@ body{
                 height: 125px;
                 position: absolute;
                 left: -15px;
-                bottom: 60px;
-                top: 108px;
+                top: 185px;
                 
 
             }
@@ -489,13 +488,11 @@ body{
                 width: 1400px;
                 justify-content: space-around;
                 position: relative;
+                flex-wrap: wrap;
                 img{
                     width: 125px;
                     height: 125px;
-                    position: absolute;
-                    left: -15px;
-                    bottom: 60px;
-                    top: 108px;
+                   
                     
     
                 }
@@ -529,10 +526,9 @@ body{
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                flex-wrap: wrap;
                 img{
-                    // position: absolute;
-                    // top: 108px;
-                    // left: -15px;
+                    
                     width: 125px;
                     height: 125px;
                 }

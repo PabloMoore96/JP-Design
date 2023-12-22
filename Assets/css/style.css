@@ -405,8 +405,7 @@ body .mainAbout .secMainAbout h1 {
     height: 125px;
     position: absolute;
     left: -15px;
-    bottom: 60px;
-    top: 108px;
+    top: 185px;
   }
   body .volverVideo .video {
     width: 820px;
@@ -437,14 +436,11 @@ body .mainAbout .secMainAbout h1 {
     width: 1400px;
     justify-content: space-around;
     position: relative;
+    flex-wrap: wrap;
   }
   body .mainGal1 .volverVideo img {
     width: 125px;
     height: 125px;
-    position: absolute;
-    left: -15px;
-    bottom: 60px;
-    top: 108px;
   }
   body .mainGal1 .volverVideo .video {
     width: 820px;
@@ -473,6 +469,7 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   body .mainGal1 .volverVideo img {
     width: 125px;
