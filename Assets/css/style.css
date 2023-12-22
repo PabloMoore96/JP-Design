@@ -16,7 +16,7 @@ main {
 #z_index_grid img {
   position: absolute;
   width: 1870px;
-  top: 25px;
+  top: 15px;
   left: 25px;
   z-index: 0;
 }
@@ -24,7 +24,7 @@ main {
 #z_gallery_grid img {
   position: absolute;
   width: 1870px;
-  top: 80px;
+  top: 70px;
   left: 25px;
   z-index: 0;
 }
@@ -47,7 +47,8 @@ body .nav .lista ul {
   display: flex;
 }
 body .nav .lista ul li {
-  margin: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
   list-style: none;
   padding: 5px;
 }
@@ -55,7 +56,13 @@ body .nav .lista ul li a {
   color: white;
   text-decoration: none;
 }
+body .nav .lista ul li:hover {
+  margin-left: 96px;
+  border: 2px;
+  border-style: outset;
+}
 body .nav .lista ul .active {
+  margin-left: 100px !important;
   border: 2px;
   border-style: outset;
 }
@@ -356,10 +363,12 @@ body .mainContact .secMainContact {
   padding: 40px;
 }
 body .mainContact .secMainContact a {
+  font-size: 16pt;
   margin-left: 70px;
   z-index: 1;
   text-decoration: none;
-  margin-bottom: 40px;
+  margin-top: 33px;
+  margin-bottom: 20px;
 }
 body .mainContact .secMainContact a:hover {
   text-decoration: underline;
@@ -370,15 +379,17 @@ body .mainAbout {
   padding-left: 100px;
 }
 body .mainAbout .secMainAbout {
-  min-height: calc(100vh - 106px - 77px);
+  min-height: calc(100vh - 106px - 62px);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 15px;
 }
 body .mainAbout .secMainAbout h1 {
-  margin-left: 110px;
+  font-size: 16pt;
+  margin-left: 111px;
   z-index: 1;
+  font-weight: 500;
+  margin-top: 10px;
 }
 @media (min-width: 1500px) {
   body .mainGal1 {

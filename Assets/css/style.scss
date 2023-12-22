@@ -15,7 +15,7 @@ main{
     img{
         position: absolute;
         width: 1870px;
-        top: 25px;
+        top: 15px;
         left: 25px;
         z-index: 0;
     }
@@ -25,7 +25,7 @@ main{
     img{
         position: absolute;
         width: 1870px;
-        top: 80px;
+        top: 70px;
         left: 25px;
         z-index: 0;
     }
@@ -52,7 +52,8 @@ body{
                 display: flex;
 
                 li{
-                    margin: 20px;
+                    margin-left: 100px;
+                    margin-right: 20px;
                     list-style: none;
                     padding: 5px;
                     
@@ -61,11 +62,18 @@ body{
                         text-decoration: none;
                         
                     }
+                    &:hover{
+                        margin-left: 96px;
+                        border: 2px;
+                        border-style: outset;
+                    }
                 }
                 .active{
+                    margin-left: 100px !important;
                     border: 2px;
                     border-style: outset;
                 }
+                
             }
         }
         .logo{
@@ -394,10 +402,12 @@ body{
             justify-content: end;
             padding: 40px;
             a{
+                font-size: 16pt;
                 margin-left: 70px;
                 z-index: 1;
                 text-decoration: none;
-                margin-bottom: 40px;
+                margin-top: 33px;
+                margin-bottom: 20px;
                 &:hover{
                     text-decoration: underline;
                 }
@@ -409,15 +419,18 @@ body{
         align-content: center;
         padding-left: 100px;
         .secMainAbout{
-            min-height: calc(100vh - 106px - 77px);
+            min-height: calc(100vh - 106px - 62px);
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            margin-top: 15px;
+            
             
             h1{
-                margin-left: 110px;
+                font-size: 16pt;
+                margin-left: 111px;
                 z-index: 1;
+                font-weight: 500;
+                margin-top: 10px;
                 
                 
             }
