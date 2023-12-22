@@ -53,11 +53,12 @@ body{
 
                 li{
                     margin-left: 100px;
-                    margin-right: 20px;
+                    margin-right: 10px;
                     list-style: none;
                     padding: 5px;
                     
                     a{
+                        font-size: 14pt;
                         color: white;
                         text-decoration: none;
                         
@@ -438,7 +439,36 @@ body{
     }
 
 // Galería 1
-    @media (min-width: 1500px){
+    @media (min-width: 1800px){
+        .volverVideo{
+            display: flex;
+            align-items: center;
+            width: 1400px;
+            justify-content: space-around;
+            position: relative;
+            img{
+                width: 125px;
+                height: 125px;
+                position: absolute;
+                left: -15px;
+                bottom: 60px;
+                top: 108px;
+                
+
+            }
+            .video{
+                width: 820px;
+                height: 500px;
+            }
+        }
+            
+
+    }
+    @media (max-width: 1800px){
+        #z_gallery_grid{
+            display: none;
+        }
+        
         .mainGal1{
             display: flex;
             flex-direction: column;
@@ -449,7 +479,7 @@ body{
                 display: flex;
     
                 img{
-                    width: 500px;
+                    width: 600px;
                     margin-bottom: 60px;
                 }
             }
@@ -463,8 +493,10 @@ body{
                     width: 125px;
                     height: 125px;
                     position: absolute;
-                    left: 190px;
+                    left: -15px;
                     bottom: 60px;
+                    top: 108px;
+                    
     
                 }
                 .video{
@@ -475,6 +507,7 @@ body{
         }
     }
     @media (min-width: 1000px){
+        
         .mainGal1{
             display: flex;
             flex-direction: column;
@@ -487,17 +520,19 @@ body{
                 justify-content: center;
     
                 img{
-                    width: 350px;
-                    margin-bottom: 50px;
+                    width: 467px;
+                    margin-bottom: 72px;
                 }
             }
             .volverVideo{
+                position: relative;
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                position: relative;
                 img{
-                    margin: 40px;
+                    // position: absolute;
+                    // top: 108px;
+                    // left: -15px;
                     width: 125px;
                     height: 125px;
                 }
@@ -509,6 +544,9 @@ body{
         }
     }
     @media (max-width: 1000px){
+        #z_gallery_grid{
+            display: none;
+        }
         .mainGal1{
             display: flex;
             flex-direction: column;
@@ -543,6 +581,9 @@ body{
         }
     }
     @media (max-width: 725px){
+        #z_gallery_grid{
+            display: none;
+        }
         .mainGal1{
             display: flex;
             flex-direction: column;
@@ -586,6 +627,7 @@ body{
 
 // Galería 2
     @media (min-width: 915px){
+        
         .mainGal2{
             padding: 10px;
             display: flex;
@@ -603,7 +645,7 @@ body{
                     flex-wrap: wrap;
                     justify-content: center;
                     img{
-                        width: 350px;
+                        width: 550px;
                     }
                 }
             }
@@ -660,12 +702,17 @@ body{
             min-height: calc(100vh - 64px);
     
             .sec1{
+                margin-top: 12px;
                 display: flex;
                 article{
                     display: flex;
+                    align-items: flex-start;
                     img{
-                        width: 350px;
-                        margin-top: 90px;
+                        width: 468px;
+                        height: 250px;
+                    }
+                    #tapa{
+                        height: 280px;
                     }
                 }
             }
