@@ -15,7 +15,8 @@ main{
     img{
         position: absolute;
         width: 1870px;
-        top: 15px;
+        height: 760px;
+        top: 16px;
         left: 25px;
         z-index: 0;
     }
@@ -25,7 +26,8 @@ main{
     img{
         position: absolute;
         width: 1870px;
-        top: 70px;
+        height: 800px;
+        top: 50px;
         left: 25px;
         z-index: 0;
     }
@@ -53,9 +55,9 @@ body{
 
                 li{
                     margin-left: 100px;
-                    margin-right: 10px;
+                    margin-right: 0;
                     list-style: none;
-                    padding: 5px;
+                    padding: 8px;
                     
                     a{
                         font-size: 14pt;
@@ -66,13 +68,16 @@ body{
                     &:hover{
                         margin-left: 96px;
                         border: 2px;
-                        border-style: outset;
+                        border-style: solid;
+                        border-color: white;
+                        box-shadow: none;
                     }
                 }
                 .active{
                     margin-left: 100px !important;
                     border: 2px;
-                    border-style: outset;
+                    border-style: solid;
+                    border-color: white;
                 }
                 
             }
@@ -396,45 +401,61 @@ body{
         display: flex;
         align-content: center;
         padding-left: 100px;
+        position: relative;
         .secMainContact{
             min-height: calc(100vh - 106px - 62px);
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            padding: 40px;
-            a{
-                font-size: 16pt;
-                margin-left: 70px;
-                z-index: 1;
-                text-decoration: none;
-                margin-top: 32px;
-                margin-bottom: 20px;
-                &:hover{
-                    text-decoration: underline;
+            
+            .enlaces{
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                padding: 40px;
+                position: absolute;
+                left: 170px;
+                top: 382px;
+                a{
+                    font-size: 16pt;
+                    z-index: 1;
+                    text-decoration: none;
+                    margin-top: 32px;
+                    margin-bottom: 19px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
                 }
+
             }
+           
         }
     }
     .mainAbout{
         display: flex;
         align-content: center;
         padding-left: 100px;
+        position: relative;
         .secMainAbout{
             min-height: calc(100vh - 106px - 62px);
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content:space-evenly;
             
-            
-            h1{
-                font-size: 16pt;
-                margin-left: 111px;
-                z-index: 1;
-                font-weight: 500;
-                margin-top: 10px;
-                
-                
+            .textos{
+                position: absolute;
+                top: 75px;
+                h1{
+                    font-size: 16pt;
+                    margin-left: 111px;
+                    z-index: 1;
+                    font-weight: 500;
+                    margin-bottom: 65px;
+                    
+                    
+                }
+                .texto2{
+                    margin-top: 150px;
+                }
             }
+            
         }
     }
 
@@ -447,11 +468,18 @@ body{
             justify-content: space-around;
             position: relative;
             img{
-                width: 125px;
-                height: 125px;
+                width: 170px;
+                height: 170px;
                 position: absolute;
-                left: -15px;
-                top: 185px;
+                left: -40px;
+                top: 163px;
+
+                &:hover{
+                    width: 150px;
+                    height: 150px;
+                    left: -36px;
+                    top: 168px;
+                }
                 
 
             }
@@ -490,8 +518,8 @@ body{
                 position: relative;
                 flex-wrap: wrap;
                 img{
-                    width: 125px;
-                    height: 125px;
+                    width: 170px;
+                    height: 170px;
                    
                     
     
@@ -506,6 +534,7 @@ body{
     @media (min-width: 1000px){
         
         .mainGal1{
+
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -518,7 +547,7 @@ body{
     
                 img{
                     width: 467px;
-                    margin-bottom: 72px;
+                    margin-bottom: 90px;
                 }
             }
             .volverVideo{
@@ -528,9 +557,17 @@ body{
                 justify-content: space-around;
                 flex-wrap: wrap;
                 img{
-                    
-                    width: 125px;
-                    height: 125px;
+                    position: absolute;
+                    top: 164px;
+                    width: 170px;
+                    height: 170px;
+                    &:hover{
+                        position: absolute;
+                        top: 187px;
+                        left: -20px;
+                        width: 125px;
+                        height: 125px;
+                    }
                 }
                 .video{
                     width: 720px;
@@ -666,7 +703,7 @@ body{
                         #img7{
                             z-index: 1;
                             img{
-                                width: 125px;
+                                width: 170px;
                             }
                         }
                         #nintendo1{
@@ -729,10 +766,20 @@ body{
                         display: flex;
                         align-items: center;
                         justify-content: space-evenly;
+                        position: relative;
     
                         #img7{
+
                             img{
-                                width: 125px;
+                                position: absolute;
+                                top: 30px;
+                                left: -39px;
+                                width: 170px;
+                                &:hover{
+                                    top: 40px;
+                                    left: -30px;
+                                    width: 150px;
+                                }
                             }
                         }
                         #nintendo1{
@@ -838,13 +885,13 @@ body{
                 display: flex;
                 padding: 5px;
                 padding-bottom: 20px ;
-                margin-top: 25px;
-                margin-bottom: 10px;
+                margin-top: 13px;
+                margin-bottom: 38px;
                 img{
-
                     width: 370px;
-                    margin-right: 100px;
+                    margin-right: 180px;
                 }
+                
             }
     
             .mainGal3Sec2{
@@ -855,16 +902,25 @@ body{
                     width: 900px;
                     img{
                         position: absolute;
-                        left: 430px;
-                        bottom: 85px;
-                        width: 125px;
+                        left: 174px;
+                        bottom: 73px;
+                        width: 170px;
+                        &:hover{
+                            left: 182px;
+                            bottom: 83px;
+                            width: 150px;
+                        }
                     }
                 }
                 .img-abajo{
+                    z-index: -1;
                     display: flex;
                     img{
                         width: 370px;
-                        margin-right: 100px;
+                        margin-right: 180px;
+                    }
+                    .img5{
+                        margin-right: 0 !important;
                     }
                 }
             }
@@ -995,6 +1051,7 @@ body{
                 }
     
                 .img-abajoo{
+                    z-index: -1;
                     width: 1200px;
                     display: flex;
                     .imgLarga{
@@ -1017,16 +1074,19 @@ body{
             align-items: center;
             justify-content: center;
             min-height: calc(100vh - 64px);
+            position: relative;
     
             .mainGal5Sec1{
+                position: absolute;
+                top: 50px;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                margin-top: 22px;
-                margin-bottom: 37px;
+                margin-top: 0px;
+                margin-bottom: 65px;
                 img{
                     width: 250px;
-                    margin: 10px;
+                    margin-left: 15px;
                 }
                 .imgAncha{
 
@@ -1036,6 +1096,8 @@ body{
             .mainGal5Sec2{
                 display: flex;
                 flex-wrap: wrap-reverse;
+                position: absolute;
+                bottom: -187px;
                 position: relative;
                 justify-content: space-evenly;
     
@@ -1044,7 +1106,15 @@ body{
                     display: flex;
                     justify-content: center;
                     img{
-                        width: 125px;
+                        position: absolute;
+                        left: 212px;
+                        top: 200px;
+                        width: 170px;
+                        &:hover{
+                            left: 220px;
+                            top: 210px;
+                            width: 150px; 
+                        }
                     }
                 }
     

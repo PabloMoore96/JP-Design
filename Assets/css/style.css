@@ -16,7 +16,8 @@ main {
 #z_index_grid img {
   position: absolute;
   width: 1870px;
-  top: 15px;
+  height: 760px;
+  top: 16px;
   left: 25px;
   z-index: 0;
 }
@@ -24,7 +25,8 @@ main {
 #z_gallery_grid img {
   position: absolute;
   width: 1870px;
-  top: 70px;
+  height: 800px;
+  top: 50px;
   left: 25px;
   z-index: 0;
 }
@@ -48,9 +50,9 @@ body .nav .lista ul {
 }
 body .nav .lista ul li {
   margin-left: 100px;
-  margin-right: 10px;
+  margin-right: 0;
   list-style: none;
-  padding: 5px;
+  padding: 8px;
 }
 body .nav .lista ul li a {
   font-size: 14pt;
@@ -60,12 +62,15 @@ body .nav .lista ul li a {
 body .nav .lista ul li:hover {
   margin-left: 96px;
   border: 2px;
-  border-style: outset;
+  border-style: solid;
+  border-color: white;
+  box-shadow: none;
 }
 body .nav .lista ul .active {
   margin-left: 100px !important;
   border: 2px;
-  border-style: outset;
+  border-style: solid;
+  border-color: white;
 }
 body .nav .logo img {
   width: 100px;
@@ -355,42 +360,55 @@ body .mainContact {
   display: flex;
   align-content: center;
   padding-left: 100px;
+  position: relative;
 }
 body .mainContact .secMainContact {
   min-height: calc(100vh - 106px - 62px);
+}
+body .mainContact .secMainContact .enlaces {
   display: flex;
   flex-direction: column;
   justify-content: end;
   padding: 40px;
+  position: absolute;
+  left: 170px;
+  top: 382px;
 }
-body .mainContact .secMainContact a {
+body .mainContact .secMainContact .enlaces a {
   font-size: 16pt;
-  margin-left: 70px;
   z-index: 1;
   text-decoration: none;
   margin-top: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
-body .mainContact .secMainContact a:hover {
+body .mainContact .secMainContact .enlaces a:hover {
   text-decoration: underline;
 }
 body .mainAbout {
   display: flex;
   align-content: center;
   padding-left: 100px;
+  position: relative;
 }
 body .mainAbout .secMainAbout {
   min-height: calc(100vh - 106px - 62px);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
-body .mainAbout .secMainAbout h1 {
+body .mainAbout .secMainAbout .textos {
+  position: absolute;
+  top: 75px;
+}
+body .mainAbout .secMainAbout .textos h1 {
   font-size: 16pt;
   margin-left: 111px;
   z-index: 1;
   font-weight: 500;
-  margin-top: 10px;
+  margin-bottom: 65px;
+}
+body .mainAbout .secMainAbout .textos .texto2 {
+  margin-top: 150px;
 }
 @media (min-width: 1800px) {
   body .volverVideo {
@@ -401,11 +419,17 @@ body .mainAbout .secMainAbout h1 {
     position: relative;
   }
   body .volverVideo img {
-    width: 125px;
-    height: 125px;
+    width: 170px;
+    height: 170px;
     position: absolute;
-    left: -15px;
-    top: 185px;
+    left: -40px;
+    top: 163px;
+  }
+  body .volverVideo img:hover {
+    width: 150px;
+    height: 150px;
+    left: -36px;
+    top: 168px;
   }
   body .volverVideo .video {
     width: 820px;
@@ -439,8 +463,8 @@ body .mainAbout .secMainAbout h1 {
     flex-wrap: wrap;
   }
   body .mainGal1 .volverVideo img {
-    width: 125px;
-    height: 125px;
+    width: 170px;
+    height: 170px;
   }
   body .mainGal1 .volverVideo .video {
     width: 820px;
@@ -462,7 +486,7 @@ body .mainAbout .secMainAbout h1 {
   }
   body .mainGal1 .img img {
     width: 467px;
-    margin-bottom: 72px;
+    margin-bottom: 90px;
   }
   body .mainGal1 .volverVideo {
     position: relative;
@@ -472,6 +496,15 @@ body .mainAbout .secMainAbout h1 {
     flex-wrap: wrap;
   }
   body .mainGal1 .volverVideo img {
+    position: absolute;
+    top: 164px;
+    width: 170px;
+    height: 170px;
+  }
+  body .mainGal1 .volverVideo img:hover {
+    position: absolute;
+    top: 187px;
+    left: -20px;
     width: 125px;
     height: 125px;
   }
@@ -604,7 +637,7 @@ body .mainAbout .secMainAbout h1 {
     z-index: 1;
   }
   body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #img7 img {
-    width: 125px;
+    width: 170px;
   }
   body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #nintendo1 img {
     width: 350px;
@@ -661,9 +694,18 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
   }
   body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #img7 img {
-    width: 125px;
+    position: absolute;
+    top: 30px;
+    left: -39px;
+    width: 170px;
+  }
+  body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #img7 img:hover {
+    top: 40px;
+    left: -30px;
+    width: 150px;
   }
   body .mainGal2 .sec2 .article1Sec2 .aside2Sec2 #nintendo1 img {
     width: 350px;
@@ -751,12 +793,12 @@ body .mainAbout .secMainAbout h1 {
     display: flex;
     padding: 5px;
     padding-bottom: 20px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 13px;
+    margin-bottom: 38px;
   }
   body .mainGal3 .mainGal3Sec1 img {
     width: 370px;
-    margin-right: 100px;
+    margin-right: 180px;
   }
   body .mainGal3 .mainGal3Sec2 {
     display: flex;
@@ -768,16 +810,25 @@ body .mainAbout .secMainAbout h1 {
   }
   body .mainGal3 .mainGal3Sec2 .return img {
     position: absolute;
-    left: 430px;
-    bottom: 85px;
-    width: 125px;
+    left: 174px;
+    bottom: 73px;
+    width: 170px;
+  }
+  body .mainGal3 .mainGal3Sec2 .return img:hover {
+    left: 182px;
+    bottom: 83px;
+    width: 150px;
   }
   body .mainGal3 .mainGal3Sec2 .img-abajo {
+    z-index: -1;
     display: flex;
   }
   body .mainGal3 .mainGal3Sec2 .img-abajo img {
     width: 370px;
-    margin-right: 100px;
+    margin-right: 180px;
+  }
+  body .mainGal3 .mainGal3Sec2 .img-abajo .img5 {
+    margin-right: 0 !important;
   }
 }
 @media (max-width: 1650px) {
@@ -898,6 +949,7 @@ body .mainAbout .secMainAbout h1 {
     width: 125px;
   }
   body .mainGal5 .mainGal5Sec2 .img-abajoo {
+    z-index: -1;
     width: 1200px;
     display: flex;
   }
@@ -917,17 +969,20 @@ body .mainAbout .secMainAbout h1 {
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 64px);
+    position: relative;
   }
   body .mainGal5 .mainGal5Sec1 {
+    position: absolute;
+    top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 22px;
-    margin-bottom: 37px;
+    margin-top: 0px;
+    margin-bottom: 65px;
   }
   body .mainGal5 .mainGal5Sec1 img {
     width: 250px;
-    margin: 10px;
+    margin-left: 15px;
   }
   body .mainGal5 .mainGal5Sec1 .imgAncha {
     width: 590px;
@@ -935,6 +990,8 @@ body .mainAbout .secMainAbout h1 {
   body .mainGal5 .mainGal5Sec2 {
     display: flex;
     flex-wrap: wrap-reverse;
+    position: absolute;
+    bottom: -187px;
     position: relative;
     justify-content: space-evenly;
   }
@@ -944,7 +1001,15 @@ body .mainAbout .secMainAbout h1 {
     justify-content: center;
   }
   body .mainGal5 .mainGal5Sec2 .return img {
-    width: 125px;
+    position: absolute;
+    left: 212px;
+    top: 200px;
+    width: 170px;
+  }
+  body .mainGal5 .mainGal5Sec2 .return img:hover {
+    left: 220px;
+    top: 210px;
+    width: 150px;
   }
   body .mainGal5 .mainGal5Sec2 .img-abajoo {
     display: flex;
